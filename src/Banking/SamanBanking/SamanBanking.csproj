@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Saman.Test.Backend.Common\Saman.Test.Backend.Common.csproj" />
+  </ItemGroup>
+
+</Project>
