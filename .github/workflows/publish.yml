@@ -6,7 +6,7 @@ on:
       - "v*"
 
 env:
-  PROJECT_PATH: src/SamanExam/Saman.Test.Backend.csproj
+  PROJECT_PATH: src/Saman.Test.Backend.Api/Saman.Test.Backend.Api.csproj
   ZIP_PATH: src/Saman.Test.Backend.Api/bin/Debug/net5.0/Saman.Test.Backend-x86.zip
   EXE_PATH: src/Saman.Test.Backend.Api/bin/Debug/net5.0/Saman.Test.Backend.Api.exe
   
