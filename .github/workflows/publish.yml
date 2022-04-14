@@ -6,9 +6,9 @@ on:
       - "v*"
 
 env:
-  PROJECT_PATH: src/SamanExam/SamanExam.csproj
-  ZIP_PATH: src/SamanExam/bin/Release/net5.0-windows/win-x86/publish/SamanExam-x86.zip
-  EXE_PATH: src/SamanExam/bin/Release/net5.0-windows/win-x86/publish/SamanExam.exe
+  PROJECT_PATH: src/SamanExam/Saman.Test.Backend.csproj
+  ZIP_PATH: src/Saman.Test.Backend.Api/bin/Debug/net5.0/Saman.Test.Backend-x86.zip
+  EXE_PATH: src/Saman.Test.Backend.Api/bin/Debug/net5.0/Saman.Test.Backend.Api.exe
   
 
 jobs:
