@@ -7,7 +7,7 @@ on:
 
 env:
   PROJECT_PATH: src/Saman.Test.Backend.Api/Saman.Test.Backend.Api.csproj
-  ZIP_PATH: src/Saman.Test.Backend.Api/bin/Debug/net5.0/Saman.Test.Backend-x86.zip
+  ZIP_PATH: src/Saman.Test.Backend.Api/bin/Debug/net5.0/Saman.Test.Backend-x64.zip
   EXE_PATH: src/Saman.Test.Backend.Api/bin/Debug/net5.0/Saman.Test.Backend.Api.exe
   
 
@@ -27,7 +27,7 @@ jobs:
         run: dotnet restore ${{ env.PROJECT_PATH }}
 
       - name: Publish Project
-        run: dotnet publish ${{ env.PROJECT_PATH }} -c Release --self-contained -r --no-restore
+        run: dotnet publish ${{ env.PROJECT_PATH }} -c Release --self-contained -r win-x64 --no-restore
 
       - name: Create Zip File
         uses: papeloto/action-zip@v1
